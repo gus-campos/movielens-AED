@@ -1,0 +1,100 @@
+[I 2024-06-09 10:54:50.521 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-06-09 10:54:50.524 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-06-09 10:54:50.527 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-06-09 10:54:50.530 ServerApp] notebook | extension was successfully linked.
+[I 2024-06-09 10:54:50.748 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-06-09 10:54:50.763 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-06-09 10:54:50.765 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-06-09 10:54:50.765 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-06-09 10:54:50.767 LabApp] JupyterLab extension loaded from /home/gfcampos/miniforge3/envs/data/lib/python3.12/site-packages/jupyterlab
+[I 2024-06-09 10:54:50.768 LabApp] JupyterLab application directory is /home/gfcampos/miniforge3/envs/data/share/jupyter/lab
+[I 2024-06-09 10:54:50.768 LabApp] Extension Manager is 'pypi'.
+[I 2024-06-09 10:54:50.777 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-06-09 10:54:50.779 ServerApp] notebook | extension was successfully loaded.
+[I 2024-06-09 10:54:50.780 ServerApp] Serving notebooks from local directory: /home/gfcampos/Documents/Projeto-MovieLens
+[I 2024-06-09 10:54:50.780 ServerApp] Jupyter Server 2.14.1 is running at:
+[I 2024-06-09 10:54:50.780 ServerApp] http://localhost:8888/lab?token=f3a083330963a5ccf151745515a0f2fd71eb9bcbcc66f68a
+[I 2024-06-09 10:54:50.780 ServerApp]     http://127.0.0.1:8888/lab?token=f3a083330963a5ccf151745515a0f2fd71eb9bcbcc66f68a
+[I 2024-06-09 10:54:50.780 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2024-06-09 10:54:50.795 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/gfcampos/.local/share/jupyter/runtime/jpserver-4108-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=f3a083330963a5ccf151745515a0f2fd71eb9bcbcc66f68a
+        http://127.0.0.1:8888/lab?token=f3a083330963a5ccf151745515a0f2fd71eb9bcbcc66f68a
+[I 2024-06-09 10:54:50.810 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2024-06-09 10:54:55.319 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-06-09 10:54:55.766 ServerApp] 404 GET /api/contents/Documents/Projeto-MovieLens?content=0&hash=0&1717941295757 (c7e7688910e441f2b3d7eb029e673ef1@127.0.0.1) 1.41ms referer=http://localhost:8888/lab
+[W 2024-06-09 10:54:55.766 ServerApp] 404 GET /api/contents/Documents/Projeto-MovieLens?content=0&hash=0&1717941295757 (127.0.0.1): No such file or directory: Documents/Projeto-MovieLens
+[W 2024-06-09 10:54:55.768 ServerApp] 404 GET /api/contents/Documents/Projeto-MovieLens/Avalia%C3%A7%C3%B5es%20MovieLens-Copy1.ipynb?content=0&hash=0&1717941295757 (c7e7688910e441f2b3d7eb029e673ef1@127.0.0.1) 1.52ms referer=http://localhost:8888/lab
+[W 2024-06-09 10:54:55.768 ServerApp] 404 GET /api/contents/Documents/Projeto-MovieLens/Avalia%C3%A7%C3%B5es%20MovieLens-Copy1.ipynb?content=0&hash=0&1717941295757 (127.0.0.1): No such file or directory: Documents/Projeto-MovieLens/Avaliações MovieLens-Copy1.ipynb
+[W 2024-06-09 10:54:55.769 ServerApp] 404 GET /api/contents/Documents/Projeto-MovieLens/%5Blarge%5D%20Avalia%C3%A7%C3%B5es%20MovieLens.ipynb?content=0&hash=0&1717941295757 (c7e7688910e441f2b3d7eb029e673ef1@127.0.0.1) 1.92ms referer=http://localhost:8888/lab
+[W 2024-06-09 10:54:55.769 ServerApp] 404 GET /api/contents/Documents/Projeto-MovieLens/%5Blarge%5D%20Avalia%C3%A7%C3%B5es%20MovieLens.ipynb?content=0&hash=0&1717941295757 (127.0.0.1): No such file or directory: Documents/Projeto-MovieLens/[large] Avaliações MovieLens.ipynb
+[W 2024-06-09 10:54:55.771 ServerApp] 404 GET /api/contents/IC/ANALISE_DADOS?content=0&hash=0&1717941295757 (c7e7688910e441f2b3d7eb029e673ef1@127.0.0.1) 1.54ms referer=http://localhost:8888/lab
+[W 2024-06-09 10:54:55.771 ServerApp] 404 GET /api/contents/IC/ANALISE_DADOS?content=0&hash=0&1717941295757 (127.0.0.1): No such file or directory: IC/ANALISE_DADOS
+[W 2024-06-09 10:54:55.772 ServerApp] 404 GET /api/contents/IC/ANALISE_DADOS/Gr%C3%A1ficos%20energia.ipynb?content=0&hash=0&1717941295757 (c7e7688910e441f2b3d7eb029e673ef1@127.0.0.1) 2.11ms referer=http://localhost:8888/lab
+[W 2024-06-09 10:54:55.772 ServerApp] 404 GET /api/contents/IC/ANALISE_DADOS/Gr%C3%A1ficos%20energia.ipynb?content=0&hash=0&1717941295757 (127.0.0.1): No such file or directory: IC/ANALISE_DADOS/Gráficos energia.ipynb
+[W 2024-06-09 10:54:55.773 ServerApp] 404 GET /api/contents/Documents/Projeto-MovieLens/Avalia%C3%A7%C3%B5es%20MovieLens-Copy1.ipynb?content=0&hash=0&1717941295758 (c7e7688910e441f2b3d7eb029e673ef1@127.0.0.1) 2.89ms referer=http://localhost:8888/lab
+[W 2024-06-09 10:54:55.773 ServerApp] 404 GET /api/contents/Documents/Projeto-MovieLens/Avalia%C3%A7%C3%B5es%20MovieLens-Copy1.ipynb?content=0&hash=0&1717941295758 (127.0.0.1): No such file or directory: Documents/Projeto-MovieLens/Avaliações MovieLens-Copy1.ipynb
+[W 2024-06-09 10:54:55.774 ServerApp] 404 GET /api/contents/Documents/Projeto-MovieLens/%5Blarge%5D%20Avalia%C3%A7%C3%B5es%20MovieLens.ipynb?content=0&hash=0&1717941295758 (c7e7688910e441f2b3d7eb029e673ef1@127.0.0.1) 2.20ms referer=http://localhost:8888/lab
+[W 2024-06-09 10:54:55.774 ServerApp] 404 GET /api/contents/Documents/Projeto-MovieLens/%5Blarge%5D%20Avalia%C3%A7%C3%B5es%20MovieLens.ipynb?content=0&hash=0&1717941295758 (127.0.0.1): No such file or directory: Documents/Projeto-MovieLens/[large] Avaliações MovieLens.ipynb
+[W 2024-06-09 10:54:55.775 ServerApp] 404 GET /api/contents/IC/ANALISE_DADOS/Gr%C3%A1ficos%20energia.ipynb?content=0&hash=0&1717941295758 (c7e7688910e441f2b3d7eb029e673ef1@127.0.0.1) 1.80ms referer=http://localhost:8888/lab
+[W 2024-06-09 10:54:55.775 ServerApp] 404 GET /api/contents/IC/ANALISE_DADOS/Gr%C3%A1ficos%20energia.ipynb?content=0&hash=0&1717941295758 (127.0.0.1): No such file or directory: IC/ANALISE_DADOS/Gráficos energia.ipynb
+[W 2024-06-09 10:54:55.778 ServerApp] 404 GET /api/contents/Documents/Projeto-MovieLens/Avalia%C3%A7%C3%B5es%20MovieLens-Copy1.ipynb?content=0&hash=0&1717941295759 (c7e7688910e441f2b3d7eb029e673ef1@127.0.0.1) 1.49ms referer=http://localhost:8888/lab
+[W 2024-06-09 10:54:55.778 ServerApp] 404 GET /api/contents/Documents/Projeto-MovieLens/Avalia%C3%A7%C3%B5es%20MovieLens-Copy1.ipynb?content=0&hash=0&1717941295759 (127.0.0.1): No such file or directory: Documents/Projeto-MovieLens/Avaliações MovieLens-Copy1.ipynb
+[I 2024-06-09 10:54:55.857 ServerApp] New terminal with automatic name: 1
+[W 2024-06-09 10:54:56.902 ServerApp] 404 GET /api/contents/Documents/Projeto-MovieLens/Dados/ml-latest?1717941296900 (c7e7688910e441f2b3d7eb029e673ef1@127.0.0.1) 0.83ms referer=http://localhost:8888/lab
+[W 2024-06-09 10:54:56.902 ServerApp] 404 GET /api/contents/Documents/Projeto-MovieLens/Dados/ml-latest?1717941296900 (127.0.0.1): No such file or directory: Documents/Projeto-MovieLens/Dados/ml-latest
+[I 2024-06-09 10:55:20.042 ServerApp] Kernel started: 506cc4b7-601a-4fe1-ac74-e65bba7aa4c4
+[I 2024-06-09 10:55:20.720 ServerApp] Connecting to kernel 506cc4b7-601a-4fe1-ac74-e65bba7aa4c4.
+[I 2024-06-09 10:55:20.730 ServerApp] Connecting to kernel 506cc4b7-601a-4fe1-ac74-e65bba7aa4c4.
+[I 2024-06-09 10:55:20.739 ServerApp] Connecting to kernel 506cc4b7-601a-4fe1-ac74-e65bba7aa4c4.
+[W 2024-06-09 10:55:20.816 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7fdd40ce8140>
+[I 2024-06-09 10:57:19.740 ServerApp] Saving file at /movielens_EDA.ipynb
+[I 2024-06-09 10:59:19.858 ServerApp] Saving file at /movielens_EDA.ipynb
+[I 2024-06-09 11:01:20.141 ServerApp] Saving file at /movielens_EDA.ipynb
+[I 2024-06-09 11:03:20.244 ServerApp] Saving file at /movielens_EDA.ipynb
+[I 2024-06-09 11:05:20.346 ServerApp] Saving file at /movielens_EDA.ipynb
+[I 2024-06-09 11:07:20.456 ServerApp] Saving file at /movielens_EDA.ipynb
+[I 2024-06-09 11:09:20.715 ServerApp] Saving file at /movielens_EDA.ipynb
+[I 2024-06-09 11:11:20.801 ServerApp] Saving file at /movielens_EDA.ipynb
+[I 2024-06-09 11:13:20.861 ServerApp] Saving file at /movielens_EDA.ipynb
+[I 2024-06-09 11:15:20.954 ServerApp] Saving file at /movielens_EDA.ipynb
+[I 2024-06-09 11:17:21.010 ServerApp] Saving file at /movielens_EDA.ipynb
+[I 2024-06-09 11:19:21.086 ServerApp] Saving file at /movielens_EDA.ipynb
+[I 2024-06-09 11:21:21.198 ServerApp] Saving file at /movielens_EDA.ipynb
+[I 2024-06-09 11:23:18.832 ServerApp] Kernel restarted: 506cc4b7-601a-4fe1-ac74-e65bba7aa4c4
+[I 2024-06-09 11:23:18.846 ServerApp] Starting buffering for 506cc4b7-601a-4fe1-ac74-e65bba7aa4c4:0c9d56d3-d7c1-41a6-bd22-c51f804c2752
+[I 2024-06-09 11:23:18.869 ServerApp] Connecting to kernel 506cc4b7-601a-4fe1-ac74-e65bba7aa4c4.
+[I 2024-06-09 11:23:18.869 ServerApp] Restoring connection for 506cc4b7-601a-4fe1-ac74-e65bba7aa4c4:0c9d56d3-d7c1-41a6-bd22-c51f804c2752
+[I 2024-06-09 11:23:21.279 ServerApp] Saving file at /movielens_EDA.ipynb
+[I 2024-06-09 11:25:21.378 ServerApp] Saving file at /movielens_EDA.ipynb
+[I 2024-06-09 11:29:21.502 ServerApp] Saving file at /movielens_EDA.ipynb
+[I 2024-06-09 11:31:21.567 ServerApp] Saving file at /movielens_EDA.ipynb
+[I 2024-06-09 11:33:21.665 ServerApp] Saving file at /movielens_EDA.ipynb
+[I 2024-06-09 11:35:21.748 ServerApp] Saving file at /movielens_EDA.ipynb
+[I 2024-06-09 11:39:21.847 ServerApp] Saving file at /movielens_EDA.ipynb
+[I 2024-06-09 11:41:21.921 ServerApp] Saving file at /movielens_EDA.ipynb
+[I 2024-06-09 11:43:22.043 ServerApp] Saving file at /movielens_EDA.ipynb
+[I 2024-06-09 11:43:47.634 ServerApp] Saving file at /movielens_EDA.ipynb
+[I 2024-06-09 11:43:56.782 ServerApp] Starting buffering for 506cc4b7-601a-4fe1-ac74-e65bba7aa4c4:0c9d56d3-d7c1-41a6-bd22-c51f804c2752
+[I 2024-06-09 11:43:56.943 ServerApp] Connecting to kernel 506cc4b7-601a-4fe1-ac74-e65bba7aa4c4.
+[I 2024-06-09 11:43:56.943 ServerApp] Restoring connection for 506cc4b7-601a-4fe1-ac74-e65bba7aa4c4:0c9d56d3-d7c1-41a6-bd22-c51f804c2752
+[I 2024-06-09 11:43:56.987 ServerApp] Starting buffering for 506cc4b7-601a-4fe1-ac74-e65bba7aa4c4:0c9d56d3-d7c1-41a6-bd22-c51f804c2752
+[W 2024-06-09 11:43:58.487 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-06-09 11:43:58.570 ServerApp] Connecting to kernel 506cc4b7-601a-4fe1-ac74-e65bba7aa4c4.
+[I 2024-06-09 11:43:59.015 ServerApp] Starting buffering for 506cc4b7-601a-4fe1-ac74-e65bba7aa4c4:63288af1-5ba8-47b9-96fd-eba20a75471d
+[I 2024-06-09 11:44:00.007 ServerApp] Connecting to kernel 506cc4b7-601a-4fe1-ac74-e65bba7aa4c4.
+[I 2024-06-09 11:44:39.954 ServerApp] Starting buffering for 506cc4b7-601a-4fe1-ac74-e65bba7aa4c4:65c56881-7fcc-4d67-9d84-f97ba8a28b9f
+[I 2024-06-09 11:44:39.982 ServerApp] Connecting to kernel 506cc4b7-601a-4fe1-ac74-e65bba7aa4c4.
+[I 2024-06-09 11:44:39.982 ServerApp] Restoring connection for 506cc4b7-601a-4fe1-ac74-e65bba7aa4c4:65c56881-7fcc-4d67-9d84-f97ba8a28b9f
+[I 2024-06-09 11:44:40.008 ServerApp] Starting buffering for 506cc4b7-601a-4fe1-ac74-e65bba7aa4c4:65c56881-7fcc-4d67-9d84-f97ba8a28b9f
+[I 2024-06-09 11:44:40.665 ServerApp] Connecting to kernel 506cc4b7-601a-4fe1-ac74-e65bba7aa4c4.
+[W 2024-06-09 11:44:40.684 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-06-09 11:44:40.959 ServerApp] Starting buffering for 506cc4b7-601a-4fe1-ac74-e65bba7aa4c4:225d66b1-5bdf-4d4b-9830-35c40f78fcd0
+[I 2024-06-09 11:44:42.086 ServerApp] Connecting to kernel 506cc4b7-601a-4fe1-ac74-e65bba7aa4c4.
+[C 2024-06-09 11:44:48.863 ServerApp] received signal 15, stopping
+[I 2024-06-09 11:44:48.867 ServerApp] Shutting down 5 extensions
+[I 2024-06-09 11:44:48.867 ServerApp] Shutting down 1 kernel
+[I 2024-06-09 11:44:48.867 ServerApp] Kernel shutdown: 506cc4b7-601a-4fe1-ac74-e65bba7aa4c4
